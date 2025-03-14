@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -30,7 +29,7 @@ export default function Home() {
       <section className="pt-32 pb-20 px-6">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Kalyan</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I&apos;m Kalyan</h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-400 mb-6">Data Analyst & Business Analytics Professional</h2>
             <p className="text-lg mb-8 max-w-lg">
               Turning complex data into actionable business insights.
