@@ -318,64 +318,6 @@ export default function Home() {
               </div>
             </div>
             
-            {/* Project 2 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-              <div className="h-48 bg-gradient-to-r from-green-500 to-teal-600 flex items-center justify-center text-white">
-                {/* 
-                  To add your project image:
-                  1. Add your image to the public/images/projects folder (e.g., public/images/projects/covid-tracker.jpg)
-                  2. Uncomment the Image component below and comment out the placeholder div
-                  3. Update the src to point to your image
-                */}
-                {/* 
-                <Image
-                  src="/images/projects/covid-tracker.jpg"
-                  alt="COVID-19 Vaccine Tracker"
-                  width={400}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-                */}
-                <div className="text-center px-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                  <h4 className="text-lg font-semibold">Vaccine Tracker</h4>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Global Covid-19 Vaccine Tracker</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  A dynamic Tableau dashboard to analyze complex global Covid-19 vaccination data with interactive visualizations.
-                </p>
-                <ul className="mb-4 text-sm text-gray-700 dark:text-gray-300 space-y-2">
-                  <li>• Developed and deployed a dynamic Tableau dashboard for Covid-19 vaccination data</li>
-                  <li>• Provided critical insights into immunization efforts through interactive maps and charts</li>
-                  <li>• Conducted in-depth analysis revealing that 49% of the global population had received at least one dose</li>
-                  <li>• Highlighted the significant milestone of 7 billion doses administered worldwide</li>
-                </ul>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Tableau</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Data Analysis</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Data Visualization</span>
-                </div>
-                <div className="flex space-x-3">
-                  <a href="https://public.tableau.com/app/profile/your-profile/viz/covid-19-vaccine-tracker" className="text-blue-600 hover:underline flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M11.654.174V2.377H9.567v.58h2.087v2.087h.58V2.957h2.087v-.58H12.234V.174ZM5.28 5.28v1.16H4.117v.582H5.28V8.194h.582V7.022H7.022V6.44H5.862V5.28Z" />
-                    </svg>
-                    Tableau Public
-                  </a>
-                  <a href="https://github.com/xpshn1/covid-vaccine-analysis" className="text-blue-600 hover:underline flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                    </svg>
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-            
             {/* Project 3 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
               <div className="h-48 bg-gradient-to-r from-purple-500 to-pink-600 flex items-center justify-center text-white">
@@ -431,6 +373,53 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 00-2-2z" />
                     </svg>
                     PDF Report
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            {/* Project 4: Data Warehouse */}
+            <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+              <div className="h-48 bg-gradient-to-r from-yellow-500 to-orange-600 flex items-center justify-center text-white">
+                {/*
+                <Image
+                  src="/images/projects/data-warehouse.jpg"
+                  alt="Data Warehouse Project"
+                  width={400}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+                */}
+                <div className="text-center px-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-4 4v4a1 1 0 001 1h3m-7-5v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3" />
+                  </svg>
+                  <h4 className="text-lg font-semibold">Data Warehouse</h4>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">SQL Data Warehouse & Analytics Project</h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                  Comprehensive data warehousing and analytics solution using SQL Server, following Medallion Architecture (Bronze, Silver, Gold layers). Includes ETL pipelines, data modeling (star schema), and SQL-based analytics for actionable business insights.
+                </p>
+                <ul className="mb-4 text-sm text-gray-700 dark:text-gray-300 space-y-2">
+                  <li>• Built a modern data warehouse consolidating ERP and CRM data</li>
+                  <li>• Designed ETL pipelines for data ingestion, cleansing, and transformation</li>
+                  <li>• Developed fact and dimension tables for analytical queries</li>
+                  <li>• Delivered SQL-based reports on customer behavior, product performance, and sales trends</li>
+                </ul>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">SQL Server</span>
+                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">ETL</span>
+                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Data Modeling</span>
+                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Analytics</span>
+                </div>
+                <div className="flex space-x-3">
+                  <a href="https://github.com/xpshn1/SQL-data-warehouse-Project" className="text-blue-600 hover:underline flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
                   </a>
                 </div>
               </div>
