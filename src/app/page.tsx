@@ -381,15 +381,6 @@ export default function Home() {
             {/* Project 4: Data Warehouse */}
             <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
               <div className="h-48 bg-gradient-to-r from-yellow-500 to-orange-600 flex items-center justify-center text-white">
-                {/*
-                <Image
-                  src="/images/projects/data-warehouse.jpg"
-                  alt="Data Warehouse Project"
-                  width={400}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-                */}
                 <div className="text-center px-4">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3m-4 4v4a1 1 0 001 1h3m-7-5v4a1 1 0 001 1h3m10-5v4a1 1 0 01-1 1h-3" />
@@ -500,7 +491,7 @@ export default function Home() {
               </svg>
               <span>LinkedIn</span>
             </a>
-            <a href="https://tableau.public.com/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-lg">
+            <a href="https://public.tableau.com/app/profile/kalyan.molugooru/vizzes" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-lg">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M11.654.174V2.377H9.567v.58h2.087v2.087h.58V2.957h2.087v-.58H12.234V.174ZM5.28 5.28v1.16H4.117v.582H5.28V8.194h.582V7.022H7.022V6.44H5.862V5.28Zm12.04 0v1.16h-1.162v.582h1.161V8.194h.581V7.022h1.162V6.44h-1.162V5.28Zm-18.04 5.278v2.203h2.087v.581H1.28v2.087h.581v-2.087h2.087v-.581H1.861v-2.203Zm5.278 1.162v1.16H3.396v.582h1.162v1.161h.581v-1.161H6.3v-.581H5.14v-1.161Zm12.04 0v1.16h-1.162v.582h1.161v1.161h.581v-1.161h1.162v-.581h-1.162v-1.161Zm-6.02 1.162v2.203h2.087v.58h-2.087v2.087h.58v-2.087h2.087v-.58h-2.087v-2.203Zm-6.02 4.116v1.162H1.397v.58h1.161v1.162h.581v-1.161H4.3v-.581H3.139v-1.162Zm12.04 0v1.162h-1.162v.58h1.161v1.162h.581v-1.161h1.162v-.581h-1.162v-1.162Zm-6.02 1.162v2.203h2.087v.58h-2.087v2.087h.58v-2.087h2.087v-.58h-2.087v-2.203Z" />
               </svg>
@@ -532,7 +523,7 @@ export default function Home() {
                   <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                 </svg>
               </a>
-              <a href="https://tableau.public.com/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-lg">
+              <a href="https://public.tableau.com/app/profile/kalyan.molugooru/vizzes" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M11.654.174V2.377H9.567v.58h2.087v2.087h.58V2.957h2.087v-.58H12.234V.174ZM5.28 5.28v1.16H4.117v.582H5.28V8.194h.582V7.022H7.022V6.44H5.862V5.28Zm12.04 0v1.16h-1.162v.582h1.161V8.194h.581V7.022h1.162V6.44h-1.162V5.28Zm-18.04 5.278v2.203h2.087v.581H1.28v2.087h.581v-2.087h2.087v-.581H1.861v-2.203Zm5.278 1.162v1.16H3.396v.582h1.162v1.161h.581v-1.161H6.3v-.581H5.14v-1.161Zm12.04 0v1.16h-1.162v.582h1.161v1.161h.581v-1.161h1.162v-.581h-1.162v-1.161Zm-6.02 1.162v2.203h2.087v.58h-2.087v2.087h.58v-2.087h2.087v-.58h-2.087v-2.203Zm-6.02 4.116v1.162H1.397v.58h1.161v1.162h.581v-1.161H4.3v-.581H3.139v-1.162Zm12.04 0v1.162h-1.162v.58h1.161v1.162h.581v-1.161h1.162v-.581h-1.162v-1.162Zm-6.02 1.162v2.203h2.087v.58h-2.087v2.087h.58v-2.087h2.087v-.58h-2.087v-2.203Z" />
                 </svg>
